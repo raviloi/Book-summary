@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+
+<h1>Edit content</h1>
+
+
+<form action="/edit/post/<%= foundBook._id %>" method="POST">
+    <input type="text" name="title" value= "<%= foundBook.title %>" >
+    <input type="text" name="summary" value= "<%= foundBook.summary %>" >
+    <input type="text" name="author" value= "<%= foundBook.author %>" >
+    <input type="Submit">
+</form>
+
+
+<%- include("partials/footer.ejs") %>

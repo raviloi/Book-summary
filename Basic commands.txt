@@ -1,0 +1,36 @@
+____________________________________
+Basic structure for any project using Hyper, cd to the folder first.
+Structure- CSS
+public\styles.css
+
+Structure- EJS
+views\partials
+footer.ejs
+header.ejs
+
+views\
+index.ejs
+
+\index.js
+
+npm init -y
+npm i express body-parser ejs
+add "type": "module", in package.json
+
+touch index.js
+
+mkdir views
+cd views
+touch index.ejs
+
+mkdir partials
+cd partials
+touch footer.ejs header.ejs
+
+Go to root folder
+mkdir public
+cd public
+touch styles.css
+
+nodemon index.js
+________________________________________
